@@ -5,4 +5,4 @@
 
 
 [Single-Page CV](https://roadmap.sh/projects/single-page-cv)
-![](./projects-images/Captura.PNG)
+<img src="./projects-images/Captura.PNG" alt="Single Page CV" width="150" />
