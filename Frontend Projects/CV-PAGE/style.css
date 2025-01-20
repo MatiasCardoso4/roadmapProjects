@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cv-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+ border: 2px solid black;
+ padding: 60px;
+ margin: 30px;
+ gap: 30px;
+}
+
+.cv-container h1 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.cv-container h4 {
+  font-size: 16px;
+  color: rgb(49, 223, 49);
+}
+
+.cv-container .contact-info p, .skills p, .experience p , .experience li{
+  font-weight: 700;
+}
+
+
+.experience {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.experience p {
+  margin-bottom: 10px;
+}
+
+.experience ul {
+  margin-left: 23px;
+  margin-bottom: 10px;
+}
+
+
+.experience h3 {
+  color: rgb(121, 187, 250);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
