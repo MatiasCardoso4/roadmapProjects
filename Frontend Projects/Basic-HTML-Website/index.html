@@ -1,91 +1,132 @@
-<DOCTYPE html>
-  <html>
+<!DOCTYPE html>
+  <html lang="en">
     <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width" />
+
+
+      <meta property="og:title" content="Developer Portfolio" />
+      <meta
+        property="og:description"
+        content="This is a portfolio website for a frontend developer."
+      />
+      <meta
+        property="og:image"
+        content=""
+      />
+      <meta property="og:url" content="" />
+      <link rel="stylesheet" href="./style.css" />
       <title>Basic HTML Website</title>
     </head>
     <body>
       <main>
         <header>
-          <h2>Developer Name</h2>
+          <h2>Matias Cardoso</h2>
           <nav>
             <ul>
-              <li>Home</li>
+              <li><a href="">Home</a></li>
               /
-              <li>Projects</li>
+              <li><a href="./pages/projects.html">Projects</a></li>
               /
-              <li>Articles</li>
+              <li><a href="./pages/articles.html">Articles</a></li>
               /
-              <li>Contact</li>
+              <li><a href="./pages/contact.html">Contact</a></li>
             </ul>
           </nav>
         </header>
 
-        <section>
-          <h1>Frontend Developer</h1>
-        </section>
-        <section class="projects">
-          <h2>Projects</h2>
+        <h1 class="page-title">Frontend Developer</h1>
+      <section class="info">
+    
+        <sidebar class="projects">
+          <h3 class="projects-title">Projects</h3>
           <ul>
-            <li>Project 1</li>
-            <li>Project 2</li>
-            <li>Project 3</li>
+            <li>HTML Only Portfolio</li>
+            <li>Calculator</li>
+            <li>Quiz App</li>
+            <li>Countdown Timer</li>
+            <li>Product Upcoming Page</li>
           </ul>
-        </section>
+        </sidebar>
         <section class="experience">
-          <div>
-            <h3>Work Experience</h3>
-            <p>roadmap.sh</p>
-            <p>Solved all the frontend projects</p>
-            <span><a href="#">Visit my Profile</a></span>
-          </div>
-          <div>
-            <h3>OpenSource Work</h3>
-            <p>
-              Contributed to 50 opensource projects. Made my own projects with
-              200 GitHub Stars.
-            </p>
-            <span><a href="#">Visit my Profile</a></span>
-          </div>
+            <div class="first-job">
+              <h3 class="experience-title">Work Experience</h3>
+              <p>roadmap.sh</p>
+              <p>Solved all the frontend projects</p>
+              <span><a href="#">Visit my Profile</a></span>
+            </div>
+            <div class="second-job">
+              <h3 class="second-job-name">OpenSource Work</h3>
+              <p>
+                Contributed to 50 opensource projects. Made my own projects with
+                200 GitHub Stars.
+              </p>
+              <span><a href="#">Visit my Profile</a></span>
+            </div>
+       
         </section>
         <section class="education">
+          <h3 class="education-title">Education</h3>
           <p>
             Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30
             sessions.
           </p>
-          <p>Course I took</p>
-          <p>
-            <ul>
-              <li>Object Oriented Programming</li>
-              <li>Data Structures and Algorithms</li>
-              <li>Web Engineering</li>
-              <li>Artificial Intelligence</li>
-              <li>Human Computer Interaction</li>
-              <li>Computer Graphics</li>
-              <li>Database Management Systems</li>
-              <li>Distributed Database Systems</li>
-              <li>Discreet Mathematics</li>
-            </ul>
-          </p>
+
+          <div class="courses-list">
+            <p>Course I took</p>
+              <ul>
+                <li>Object Oriented Programming</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Web Engineering</li>
+                <li>Artificial Intelligence</li>
+                <li>Human Computer Interaction</li>
+                <li>Computer Graphics</li>
+                <li>Database Management Systems</li>
+                <li>Distributed Database Systems</li>
+                <li>Discreet Mathematics</li>
+              </ul>
+          </div>
+        
         </section>
 
-        <section class="reviews">
-          <article>
-            <p>John doe was a brilliant student; always stood out with his assignments.</p>
-            <span>Jane Doe Assistant Professor</span>
-          </article>
-          <article>
-            <p>John doe was a brilliant student; always stood out with his assignments.</p>
-            <span>Jane Doe Assistant Professor</span>
-          </article>
-          <article>
-            <p>John doe was a brilliant student; always stood out with his assignments.</p>
-            <span>Jane Doe Assistant Professor</span>
-          </article>
-        </section>
-        <footer>&#169 all rights reserved 2025</footer>
+      
+      </section>
+        <footer   class="reviews">
+          <h4 class="reviews-title">Reviews from my teachers</h4>
+          <div class="comentaries">
+            <article class="comentary-card">
+              <p class="comentary">John doe was a brilliant student; always stood out with his assignments.</p>
+             
+                <p >
+                  Jane Doe 
+                </p>
+                <p>
+                  Assistant Professor
+                </p>
+            </article>
+            <article class="comentary-card">
+              <p class="comentary">John doe was a brilliant student; always stood out with his assignments.</p>
+              <p >
+                Jane Doe 
+              </p>
+              <p>
+                Assistant Professor
+              </p>
+            </article>
+            <article  class="comentary-card">
+              <p class="comentary">John doe was a brilliant student; always stood out with his assignments.</p>
+               <p>
+                Jane Doe 
+              </p>
+              <p>
+                Assistant Professor
+              </p>
+            </article>
+          </div>
+         <p class="copyright">
+       &#169 all rights reserved 2025
+         </p>
+     </footer>
       </main>
     </body>
-  </html></DOCTYPE
->
+  </html>
